@@ -96,7 +96,7 @@ mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.App"
 ```
 And put this link in your browser: http://localhost:4567
 
-- Example to use: And put this link in your browser: http://localhost:4567/sqrt?value=2
+- Example to use: http://localhost:4567/sqrt?value=2
 
 5. Generating the documentation:
 
