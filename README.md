@@ -1,3 +1,7 @@
+# EXAM SECOND TERM. 🚀
+
+## Escuela Colombiana de Ingeniería - Enterprise Architectures(AREP).
+
 Diseñé, construya y despliegue los siguientes servicios en un microcontenedor docker desplegado en una instancei a EC2 de AWS y otro desplegador en AWS lambda con AWS gateway. Cada estudiante debe seleccionar para desarrollar dos funciones matemáticas de acuerdo a los dos últimos dígitos de su cédula como se especifica en la lista (Si sus dos últimos dígitos de su cédula son el mismo use el siguiente dígito que sea diferente). Todas las funciones reciben un solo parámetro de tipo "Double" y retornan una parámetro de tipo "Double".
 
 0. log
@@ -45,13 +49,88 @@ Salida. El formato de la salida y la respuesta debe ser un JSON con el siguiente
 
 }
 
+## Getting Started
 
-Entregable:
+### Prerequisites
 
-1. Proyecto actualizado en github (uno o dos repositorios, incluya referencias al repositorio alterno en el repositorio que entrega)
+- [Maven](https://maven.apache.org/) - Dependency Management.
 
-2. Descripción del proyecto enel README con pantalazos que muestren el funcionamiento.
+- [Java 8](https://www.oracle.com/co/java/technologies/javase/javase-jdk8-downloads.html) -  Development Environment.
 
-3. Descripción de como correrlo en EC2 y cómo desplegarlo en lambda.
+- [Git](https://git-scm.com/) - Version Control System.
 
-4. Video de menos de un minuto del funcionamiento (lo puede tomar con el celular una vez funcione)
+- [Spark](http://sparkjava.com/) - Micro framework for creating web applications in Java 8.
+
+Make sure you have this programs installed correctly and the version that we need with the following commands:
+
+```
+mvn --version
+```
+
+```
+git --version
+```
+
+```
+java -showversion
+```
+
+### Installing
+
+1. Clone the repository:
+
+```
+git clone https://github.com/angiedanielar/PARCIAL2_AREP
+```
+
+2. Compile the projet:
+
+```
+mvn package
+```
+
+3. Executing the program:
+
+```
+mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.App"
+```
+And put this link in your browser: 
+
+- [Link to the deploy]()
+
+5. Generating the documentation:
+
+```
+mvn javadoc:javadoc
+```
+
+## How to use
+
+Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt y exp. En este repositorio esta sqrt y en este [otro repositorio](https://github.com/angiedanielar/PARICAL2.1_AREP) esta exp.
+
+![Imagen 1](resources/images/1.png)
+
+
+![Imagen 2](resources/images/2.png)
+
+## Built With
+
+- [Maven](https://maven.apache.org/) - Dependency Management
+
+- [Java 8](https://www.oracle.com/co/java/technologies/javase/javase-jdk8-downloads.html) -  Development Environment.
+
+- [Git](https://git-scm.com/) - Version Control System.
+
+- [Spark](http://sparkjava.com/) - Micro framework for creating web applications in Java 8.
+
+- [Heroku](https://www.heroku.com/platform) - Deploy platform.
+
+## Author
+
+- Angie Daniela Ruiz Alfonso.
+
+
+## License
+
+This project is under GNU General Public License - see the [LICENSE](LICENSE) file for details.
+
