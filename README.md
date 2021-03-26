@@ -104,6 +104,23 @@ And put this link in your browser: http://localhost:4567
 mvn javadoc:javadoc
 ```
 
+## Execute from Docker Image: Step by step EC2 Amazon
+   
+   1. Instalar y Configurar Docker.
+
+      Instalación en Amazon EC2: `sudo yum update -y && sudo yum install docker`.
+      
+      Inicio de Servicio: `sudo service docker start`.
+      
+      Configuración de usuario: `sudo usermod -a -G docker <usuario>` , el usuario es por defecto ec2-user.
+      
+      **Para estar seguro de guardar los cambios es necesario alir y volver a entrar a la instancia**
+
+   2. Descargar la imagen pública de DockerHub con el comando `docker pull silenrate/arepparcial2`
+   3. Crear una instanacia basada en la imagen con el comando `docker run -d -p <puerto>:7000 --name <nombre> silenrate/arepparcial2` donde el nombre y el puerto son los que tu quieras.
+   4. Para acceder a los logs usar el comando `docker logs -f <nombre>`.
+   5. Para ver la aplicación debes dirigirte a la dirección `http://<nombre de tu instancia EC2>.amazonaws.com:<puerto>/`
+
 ## How to use
 
 Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt y exp. En este repositorio esta sqrt y en este [otro repositorio](https://github.com/angiedanielar/PARCIAL2.1_AREP) esta exp.
@@ -114,9 +131,9 @@ Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt 
 
 ![Imagen 1](resources/images/1.png)
 
-## Video
+## Demonstrative video
 
-[Ir al video de ambas funcionalidades]()
+[Ir al video de ambas funcionalidades](https://youtu.be/NJfvkFRYTAY)
 
 ## Built With
 
