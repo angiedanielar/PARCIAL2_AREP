@@ -106,7 +106,7 @@ mvn javadoc:javadoc
 
 ## How to use
 
-Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt y exp. En este repositorio esta sqrt y en este [otro repositorio](https://github.com/angiedanielar/PARICAL2.1_AREP) esta exp.
+Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt y exp. En este repositorio esta sqrt y en este [otro repositorio](https://github.com/angiedanielar/PARCIAL2.1_AREP) esta exp.
 
 ![Imagen 1](resources/images/1.png)
 
