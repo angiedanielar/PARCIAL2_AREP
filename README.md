@@ -94,9 +94,9 @@ mvn package
 ```
 mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.App"
 ```
-And put this link in your browser: http://localhost:4567/sqrt?value=2
+And put this link in your browser: http://localhost:4567
 
-- [Link to the deploy]()
+- Example to use: And put this link in your browser: http://localhost:4567/sqrt?value=2
 
 5. Generating the documentation:
 
@@ -107,6 +107,10 @@ mvn javadoc:javadoc
 ## How to use
 
 Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt y exp. En este repositorio esta sqrt y en este [otro repositorio](https://github.com/angiedanielar/PARCIAL2.1_AREP) esta exp.
+
+
+- [Link to the deploy](http://ec2-54-161-64-57.compute-1.amazonaws.com:8081/)
+
 
 ![Imagen 1](resources/images/1.png)
 
