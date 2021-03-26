@@ -114,6 +114,10 @@ Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt 
 
 ![Imagen 1](resources/images/1.png)
 
+## Video
+
+[Ir al video de ambas funcionalidades]()
+
 ## Built With
 
 - [Maven](https://maven.apache.org/) - Dependency Management
