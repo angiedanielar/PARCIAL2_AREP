@@ -94,7 +94,7 @@ mvn package
 ```
 mvn exec:java -D "exec.mainClass"="edu.escuelaing.arep.app.App"
 ```
-And put this link in your browser: 
+And put this link in your browser: http://localhost:4567/sqrt?value=2
 
 - [Link to the deploy]()
 
@@ -122,8 +122,6 @@ Mi cedula termina en 98, por lo tanto las funciones que implementé fueron sqrt 
 - [Git](https://git-scm.com/) - Version Control System.
 
 - [Spark](http://sparkjava.com/) - Micro framework for creating web applications in Java 8.
-
-- [Heroku](https://www.heroku.com/platform) - Deploy platform.
 
 ## Author
 
