@@ -32,7 +32,6 @@ public class App {
     private static Object sqrtHandler(Request request, Response response) {
         Double value = Double.parseDouble(request.queryParams("value"));
         Raiz square = services.getSquareRoot(value);
-        System.out.println("Square Root Request For " + request.ip());
         response.header("Content-Type", "application/json");
         return gson.toJson(square);
     }
